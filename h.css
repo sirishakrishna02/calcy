@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+}
+.container form{
+  align-items: center;
+  background-color: black;
+  width:260px;
+  height:340px;
+  
+}
+.calculator input{
+    height:50px;
+    width:50px;
+    margin:3px;
+    border:0px;
+    outline:0px;
+    border-radius: 10px;
+}
+.display input{
+    width:220px;
+    text-align: right;
+    justify-content: flex-end;
+}
+form input.equal{
+    width:110px;
+    
+}
+body{
+    padding-top: 200px;
+    
+
+}
+.calculator form input{
+    cursor: pointer;
+}
